@@ -8,7 +8,7 @@ var head=0;
 
 function selectHead(){
     head=head+1;
-    var randomNumber=Math.floor(Math.random()*2)
+    var randomNumber=Math.floor(Math.random()*1)
     console.log(randomNumber)
     console.log(head)
     if (Number(randomNumber)===Number(head)){
@@ -18,7 +18,7 @@ function selectHead(){
     }
 }
 function selectTail(){
-    var randomNumber=Math.floor(Math.random()*2)
+    var randomNumber=Math.floor(Math.random()*1)
     console.log(randomNumber)
     console.log(head)
     if (Number(randomNumber)===Number(head)){
